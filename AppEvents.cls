@@ -124,7 +124,7 @@ Public Sub SpotlightOff()
         End If
     End If
 
-    'Set lastTarget = Target
+    Set lastTarget = Nothing
     dict.RemoveAll
     Application.EnableEvents = True
     Application.ScreenUpdating = True
